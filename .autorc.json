@@ -1,0 +1,19 @@
+{
+  "prereleaseBranches": ["dev"],
+  "plugins": [
+    [
+      "npm",
+      {
+        "setRcToken": false
+      }
+    ],
+    "conventional-commits",
+    [
+      "released",
+      {
+        "message": "🚀 This %TYPE is included in version: %VERSION 🚀",
+        "includeBotPrs": true
+      }
+    ]
+  ]
+}
