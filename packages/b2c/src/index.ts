@@ -1,4 +1,6 @@
-import { apiCall } from "plasmaxx-web";
+import { apiCall, apiCall2 } from "plasmaxx-web";
 
-apiCall()
+apiCall();
+
+apiCall2();
 
